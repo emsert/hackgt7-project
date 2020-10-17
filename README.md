@@ -1,7 +1,7 @@
 # hackgt7-project
 # Questions solving:
-# How can NCR "Help merchants reduce the cost of a transaction" and 
-# "Help merchants optimize their supply-chain process"
+ How can NCR "Help merchants reduce the cost of a transaction" and 
+ "Help merchants optimize their supply-chain process"
 # Solution:
 # A website that matches restaurants to local food and grocery stores to promote small businesses and minimize cost in the supply chain
 # Task List
