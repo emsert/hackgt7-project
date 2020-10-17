@@ -12,4 +12,6 @@ A website that matches restaurants to local food and grocery stores to promote s
 - Log-in Code
 - Way to save receipts and orders for future reference
 - Code for filter (filter by unit price, proximity, ...)
-- 
+# APIs
+- Selling Service Quick View R2(Cart System)
+- OpenTable API(Get dummy data within a zipcode)
