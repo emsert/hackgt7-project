@@ -1,0 +1,39 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Ratings page</title>
+	<link rel="stylesheet" type="text/css" href="form_proc.css" />
+</head>
+<body bgcolor="orange">
+<h1>Welcome to the ratings page</h1>
+<h3> This is a rating page for the movies</h3>
+
+<form method="POST" name="ratings" action="ratings_regexp.php">
+
+	<p>
+	Enter your name:
+	<input type="text" name="user_name" />
+	</p>
+
+	<p>
+	Enter a movie name: 
+	<input type="text" name="movie_name" /> 
+	</p>
+
+	<p>
+	<select name="rating" size="1">
+		<option value="5">5 - Excellent movie</option>
+		<option value="4">4 - Very Good</option>
+		<option value="3">3 - Good</option>
+		<option value="2">2 - Ok, but not really that much fun</option>
+		<option value="1">1 - Wow! I wasted $8 on this movie</option>
+	</select>
+
+	<input type="submit" value="Submit">
+	</p>
+
+</form>
+
+</body>
+</html>
