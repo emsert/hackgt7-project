@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Customer satisfaction survey!</title>
+    </head>
+    <body>
+        <h1>Customer satisfaction survey!</h1>
+        <p>
+			Tell us what you think of our website by filling out the form below.
+        </p>
+        
+        <hr />
+		
+		<form name="custForm" id="custForm" action="php-matching2.php" method="POST">
+        <dl>
+            <dt>Name</dt>
+            <dd>
+                <input type="text" name="custName" id="cName" />
+            </dd>
+			<dt>Day-time phone number</dt>
+			<dd>
+				<input type="text" name="dayTimeNumber" id="phoneNum" />
+			</dd>
+			<dt>Comments</dt>
+			<dd>
+			<textarea rows="2" cols="20" name="commentsBox" id="comments">
+				Enter your feedback here
+			</textarea>
+			</dd>
+		</dl>	
+			<input type="submit" value="Submit" />
+		</form>
+    </body>
+</html>
