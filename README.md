@@ -11,3 +11,4 @@ A website that matches restaurants to local food and grocery stores to promote s
 - Calculate distance between restaurant and grocery stores near it
 - Log-in Code
 - Way to save receipts and orders for future reference
+- Code for filter (filter by unit price, proximity, ...)
