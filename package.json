@@ -1,0 +1,23 @@
+{
+  "name": "hackgt7-project",
+  "version": "1.0.0",
+  "description": "How can NCR \"Help merchants reduce the cost of a transaction\", \r \"Help merchants optimize their supply-chain process\", and\r \"Help small businesses thrive\"?\r # Solution:\r A website that matches restaurants to local food and grocery stores to promote small businesses and minimize cost in the supply chain\r # Task List\r - Data acquisition\r - Set up website base X\r - Calculate distance between restaurant and grocery stores near it\r - Log-in Code\r - Way to save receipts and orders for future reference\r - Code for filter (filter by unit price, proximity, ...)\r # APIs\r - Selling Service Quick View R2(Cart System)\r - OpenTable API(Get dummy data within a zipcode)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adharmavarapu/hackgt7-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adharmavarapu/hackgt7-project/issues"
+  },
+  "homepage": "https://github.com/adharmavarapu/hackgt7-project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

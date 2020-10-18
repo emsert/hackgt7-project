@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Great Greens Microgreens",
+        "address": "400 W Peachtree St NW Suite 4-1077",
+        "distance": "8.5"
+    },
+    {
+        "name": "Freedom Farmers Market",
+        "address": "453 John Lewis Freedom Pkwy NE, Atlanta, GA 30307 30308",
+        "distance": "9.3"
+    },
+    {
+        "name": "Grant Park Farmers Market",
+        "address": "600 Cherokee Ave SE, Atlanta, GA 30312",
+        "distance": "7.1"
+    }
+]
