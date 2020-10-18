@@ -1,0 +1,77 @@
+/* Title 1 (black headers) - 28 /40 */ 
+
+
+position: absolute;
+width: 176px;
+height: 40px;
+left: 80px;
+top: 290px;
+
+/* Title 1 */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.043em;
+
+color: #000000;
+
+/* Headline - 16/24 (black product headers) */
+
+position: absolute;
+width: 127px;
+height: 24px;
+left: 80px;
+top: 451px;
+
+/* Headline */
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.006em;
+
+color: #000000;
+
+/* Subhead - 14/24 (black descriptions of products) */
+
+position: absolute;
+width: 110px;
+height: 24px;
+left: 80px;
+top: 537px;
+
+/* Subhead */
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.006em;
+
+color: #000000;
+
+/* Search Bar (Button)(Active) */
+
+position: absolute;
+width: 320px;
+height: 40px;
+left: 650px;
+top: 780px;

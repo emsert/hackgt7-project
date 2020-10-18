@@ -1,0 +1,35 @@
+CSS:
+/* Form Field (Dropdown)(Active) */
+
+
+position: absolute;
+width: 250px;
+height: 40px;
+left: 1425px;
+top: 1362px;
+
+background: #FFFFFF;
+/* Border / Primary */
+
+border: 1px solid rgba(60, 60, 67, 0.13);
+box-sizing: border-box;
+/* Form Element / Active */
+
+box-shadow: 0px 0px 8px #A0DFFD;
+border-radius: 8px;
+
+JavaScript:
+function sortPriceLowToHigh() {
+  props.sort(function(a, b){return a.price - b.price});
+  displayProps();
+}
+
+function sortPriceHighToLow() {
+  props.sort(function(a, b){return b.price - a.price});
+  displayProps();
+}
+
+function sortProximity() {
+  props.sort(function(a, b){return a.distance - b.distance});
+  displayProps();
+}
