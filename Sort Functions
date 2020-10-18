@@ -1,0 +1,4 @@
+function sortPriceLowToHigh() {
+  items.sort(function(a, b){return a.year - b.year});
+  displayItems();
+}
