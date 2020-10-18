@@ -1,7 +1,14 @@
 function sortPriceLowToHigh() {
-  props.sort(function(a, b){return a.year - b.year});
+  props.sort(function(a, b){return a.price - b.price});
   displayProps();
 }
 
 function sortPriceHighToLow() {
-  props.sort(
+  props.sort(function(a, b){return b.price - a.price});
+  displayProps();
+}
+
+function sortProximity() {
+  props.sort(function(a, b){return a.price - b.price});
+  displayProps();
+}
