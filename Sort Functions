@@ -9,6 +9,6 @@ function sortPriceHighToLow() {
 }
 
 function sortProximity() {
-  props.sort(function(a, b){return a.price - b.price});
+  props.sort(function(a, b){return a.distance - b.distance});
   displayProps();
 }
